@@ -24,13 +24,13 @@ let stepTwo = `
 </div>
 <div class="addingPlatform">
 <label name="platform" class="labelTtile">Add more platform</label>
-<img src="/icons/plus_icon.svg" alt="plus icon"/>
+<img src="./icons/plus_icon.svg" alt="plus icon"/>
 </div>
 `;
 
 let stepThree = `
 <div class="popupThanks">
-  <img src="/icons/check_icon.svg" class="checkIcon" alt="check icon"/>
+  <img src="./icons/check_icon.svg" class="checkIcon" alt="check icon"/>
   <h2 class="finalHeader">Thank you for joining!</h2>
   <p class="finalText">We will get back to you promptly.</p>
 </div>
@@ -38,7 +38,7 @@ let stepThree = `
 
 let inputAdedd = `
 <div class="platformWrapper">
-<img src="/icons/trash_icon.svg" class="deletePlatform" alt="trash icon"/>
+<img src="./icons/trash_icon.svg" class="deletePlatform" alt="trash icon"/>
 <select class="selectPlatforms" name="platforms">
 <option selected disabled hidden>Platform</option>
   <option value="youtube">Youtube</option>
@@ -59,7 +59,7 @@ function getPopupTemplate() {
   <div class="popup">
     <div class="popupNav">
       <p class="popupTitle">Join the Program</p>
-      <img src="/icons/exit_icon.svg" class="exitPop" alt="exit popup"/>
+      <img src="./icons/exit_icon.svg" class="exitPop" alt="exit popup"/>
     </div>
 
     <div class="progressBar">
