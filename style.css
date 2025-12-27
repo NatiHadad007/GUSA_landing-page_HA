@@ -92,7 +92,7 @@
 
 select.selectPlatforms {
   max-width: 116px;
-  background: white url(/icons/dropdown_icon.svg) no-repeat;
+  background: white url("./icons/dropdown_icon.svg") no-repeat;
   background-position: right 9px top 52%;
   cursor: pointer;
 }
