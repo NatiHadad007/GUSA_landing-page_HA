@@ -3,7 +3,7 @@
 A responsive sign-up module, including a landing page top section and a multi-step pop-up modal.
 
 - **Landing Section:** Introductory text, imagery, and an **"Apply Now"** button.  
-- **Sign-Up Modal:** A **3-step popup** that appears when clicking the **"Sign Up"** button.  
+- **Sign-Up Modal:** A **3-step popup** that appears when clicking the **"Apply Now"** button.  
 
 Built with **HTML, CSS, and JavaScript**.  
 
