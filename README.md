@@ -8,4 +8,4 @@ Built with **HTML, CSS, and JavaScript**.
 
 **Figma Design:** [https://www.figma.com/design/k8Sw7bilnW99x4yArPxIRy/GlassesUSA-Front-End-Home-Assignment?node-id=0-1468&t=GO0lgtX0YO4lsMCy-0]
 
-**Live Demo:** [ttps://natihadad007.github.io/GUSA_landing-page_HA/]
+**Live Demo:** [https://natihadad007.github.io/GUSA_landing-page_HA/]
