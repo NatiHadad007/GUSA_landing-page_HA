@@ -306,7 +306,7 @@ p.finalText {
   align-content: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 28px;
 }
 .text-wrapper {
   max-width: 383px;
@@ -338,8 +338,8 @@ p.finalText {
 }
 
 .signImage {
-  width: 194px;
-  height: 245px;
+  width: 174px;
+  height: 218px;
   border-radius: 8px;
 }
 

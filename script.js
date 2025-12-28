@@ -109,10 +109,17 @@ popupContainer.addEventListener("click", (e) => {
 
     // Checks if all the inputs are filled
     let popupInputs = popupContainer.querySelectorAll(".popupFields input");
+    let popupSelect = document.querySelectorAll(".selectPlatforms");
 
-    let allFilled = [...popupInputs].every(
+    let inputsFilled = [...popupInputs].every(
       (input) => input.value.trim() !== ""
     );
+
+    let platformsSelected = [...popupSelect].every(
+      (select) => select.value !== "Platform"
+    );
+
+    let allFilled = inputsFilled && platformsSelected;
 
     if (allFilled) {
       // Paste the next step
