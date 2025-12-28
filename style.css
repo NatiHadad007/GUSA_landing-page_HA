@@ -62,7 +62,7 @@
 }
 
 .popupContent::-webkit-scrollbar-button {
-  display: none; /* ✅ removes arrows only */
+  display: none; /* removes arrows only */
 }
 
 .popupContent::-webkit-scrollbar-thumb {
@@ -104,8 +104,8 @@ select.selectPlatforms {
   box-sizing: border-box;
   cursor: pointer;
   box-shadow: none;
-  list-style-type: none;
 }
+
 select,
 ::picker(select) {
   appearance: base-select;
@@ -293,11 +293,6 @@ p.finalText {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
-
-.signUp-info-wrapper {
-  display: flex;
-  align-items: anchor-center;
 }
 
 .signUp-info {

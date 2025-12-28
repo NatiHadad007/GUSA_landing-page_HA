@@ -100,6 +100,7 @@ popupContainer.addEventListener("click", (e) => {
   if (e.target.classList.contains("exitPop")) {
     closingPopup();
   }
+
   // If last step close popup by clicking on the close button
   else if (e.target.classList.contains("popupBtn")) {
     if (currentStep === steps.length - 1) {
